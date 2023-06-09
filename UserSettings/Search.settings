@@ -1,0 +1,87 @@
+trackSelection = true
+refreshSearchWindowsInPlayMode = false
+fetchPreview = true
+defaultFlags = 0
+keepOpen = false
+queryFolder = "Assets"
+onBoardingDoNotAskAgain = true
+showPackageIndexes = false
+showStatusBar = false
+scopes = {
+	"picker_window_position_offset.3172962C" = "1116,8;305,6;320;550,4"
+	"picker_search_text.3172962C" = ""
+	"last_search.3172962C" = ""
+	"OpenInspectorPreview.3172962C" = "0"
+	"currentGroup.3172962C" = "all"
+	"picker_window_position_offset.4BA16301" = "1116,8;305,6;320;550,4"
+	"picker_search_text.4BA16301" = ""
+	"last_search.4BA16301" = ""
+	"OpenInspectorPreview.4BA16301" = "0"
+	"currentGroup.4BA16301" = "all"
+}
+providers = {
+	performance = {
+		active = false
+		priority = 100
+		defaultAction = null
+	}
+	asset = {
+		active = true
+		priority = 25
+		defaultAction = null
+	}
+	log = {
+		active = false
+		priority = 210
+		defaultAction = null
+	}
+	profilermarkers = {
+		active = false
+		priority = 100
+		defaultAction = null
+	}
+	find = {
+		active = true
+		priority = 25
+		defaultAction = null
+	}
+	adb = {
+		active = false
+		priority = 2500
+		defaultAction = null
+	}
+	scene = {
+		active = true
+		priority = 50
+		defaultAction = null
+	}
+	packages = {
+		active = true
+		priority = 90
+		defaultAction = null
+	}
+	store = {
+		active = true
+		priority = 100
+		defaultAction = null
+	}
+}
+objectSelectors = {
+}
+recentSearches = [
+	""
+	"h: ref=\"Assets/Meshes/Tor_Body.prefab\""
+]
+searchItemFavorites = [
+]
+savedSearchesSortOrder = 0
+showSavedSearchPanel = false
+hideTabs = false
+expandedQueries = [
+]
+queryBuilder = false
+ignoredProperties = "id;name;classname;imagecontentshash"
+helperWidgetCurrentArea = "h:"
+disabledIndexers = ""
+minIndexVariations = 2
+findProviderIndexHelper = true
