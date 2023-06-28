@@ -119,21 +119,6 @@ MonoBehaviour:
     - model: {fileID: 8926484042661615274}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614641}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614655}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614657}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614684}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614689}
-      id: 0
-      isStickyNote: 0
   - title: Torando BODY L3
     position:
       serializedVersion: 2
@@ -243,10 +228,10 @@ MonoBehaviour:
   - title: Torando Notch Bottom
     position:
       serializedVersion: 2
-      x: 3552
-      y: -173
-      width: 745
-      height: 1442
+      x: 981
+      y: 1168
+      width: 743
+      height: 1440
     contents:
     - model: {fileID: 8926484042661614839}
       id: 0
@@ -296,10 +281,10 @@ MonoBehaviour:
   - title: Torando Notch Top
     position:
       serializedVersion: 2
-      x: 4246
-      y: -178
-      width: 726
-      height: 1442
+      x: 1832
+      y: 1175
+      width: 725
+      height: 1435
     contents:
     - model: {fileID: 8926484042661614901}
       id: 0
@@ -349,10 +334,10 @@ MonoBehaviour:
   - title: Tornado Special
     position:
       serializedVersion: 2
-      x: 4957
-      y: -153
-      width: 725
-      height: 1442
+      x: 2522
+      y: 1128
+      width: 724
+      height: 1440
     contents:
     - model: {fileID: 8926484042661614605}
       id: 7
@@ -372,28 +357,10 @@ MonoBehaviour:
     - model: {fileID: 8926484042661615092}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661615094}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661615098}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661615113}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661615116}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661615122}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661615148}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661615154}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661615157}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661615194}
@@ -437,10 +404,10 @@ MonoBehaviour:
     collapsed: 0
   uiBounds:
     serializedVersion: 2
-    x: 567
-    y: -240
-    width: 5114
-    height: 1529
+    x: 568
+    y: -239
+    width: 2787
+    height: 2849
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2219,21 +2186,21 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614606}
       inputSlot: {fileID: 8926484042661614856}
-    position: {x: 3685.6, y: 325.6}
+    position: {x: 1114, y: 1666}
     expandedSlots: []
     expanded: 0
   - m_Id: 5
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614606}
       inputSlot: {fileID: 8926484042661614918}
-    position: {x: 4360, y: 320.80002}
+    position: {x: 1946, y: 1668}
     expandedSlots: []
     expanded: 0
   - m_Id: 7
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614606}
       inputSlot: {fileID: 8926484042661615114}
-    position: {x: 5068.8, y: 345.6}
+    position: {x: 2634, y: 1626}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614606
@@ -9062,7 +9029,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614832}
   m_ExposedName: WBBLAmount
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 25
   m_Category: Wobble Effect
   m_Min:
     m_Type:
@@ -9109,21 +9076,21 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614832}
       inputSlot: {fileID: 8926484042661614881}
-    position: {x: 3661.6, y: 828}
+    position: {x: 1090, y: 2168}
     expandedSlots: []
     expanded: 0
   - m_Id: 5
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614832}
       inputSlot: {fileID: 8926484042661614943}
-    position: {x: 4345.6, y: 833.60004}
+    position: {x: 1932, y: 2181}
     expandedSlots: []
     expanded: 0
   - m_Id: 7
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614832}
       inputSlot: {fileID: 8926484042661615141}
-    position: {x: 5056, y: 884}
+    position: {x: 2621, y: 2164}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614832
@@ -9190,7 +9157,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614834}
   m_ExposedName: WBBLHeight
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 17
   m_Category: Wobble Effect
   m_Min:
     m_Type:
@@ -9237,21 +9204,21 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614834}
       inputSlot: {fileID: 8926484042661614882}
-    position: {x: 3661.6, y: 862.4}
+    position: {x: 1090, y: 2202}
     expandedSlots: []
     expanded: 0
   - m_Id: 5
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614834}
       inputSlot: {fileID: 8926484042661614944}
-    position: {x: 4345.6, y: 868}
+    position: {x: 1932, y: 2215}
     expandedSlots: []
     expanded: 0
   - m_Id: 7
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614834}
       inputSlot: {fileID: 8926484042661615142}
-    position: {x: 5062.4, y: 916.8}
+    position: {x: 2627, y: 2197}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614834
@@ -9318,7 +9285,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614836}
   m_ExposedName: WBBLESpeed
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 9
   m_Category: Wobble Effect
   m_Min:
     m_Type:
@@ -9365,21 +9332,21 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614836}
       inputSlot: {fileID: 8926484042661614883}
-    position: {x: 3659.2, y: 896}
+    position: {x: 1087, y: 2236}
     expandedSlots: []
     expanded: 0
   - m_Id: 5
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614836}
       inputSlot: {fileID: 8926484042661614945}
-    position: {x: 4343.2, y: 901.60004}
+    position: {x: 1929, y: 2249}
     expandedSlots: []
     expanded: 0
   - m_Id: 7
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614836}
       inputSlot: {fileID: 8926484042661615143}
-    position: {x: 5059.2, y: 948}
+    position: {x: 2624, y: 2228}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614836
@@ -9446,7 +9413,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614838}
   m_ExposedName: WOBBLEFreq
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 1
   m_Category: Wobble Effect
   m_Min:
     m_Type:
@@ -9493,21 +9460,21 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614838}
       inputSlot: {fileID: 8926484042661614884}
-    position: {x: 3661.6, y: 928.8}
+    position: {x: 1090, y: 2269}
     expandedSlots: []
     expanded: 0
   - m_Id: 5
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614838}
       inputSlot: {fileID: 8926484042661614946}
-    position: {x: 4345.6, y: 934.4}
+    position: {x: 1932, y: 2281}
     expandedSlots: []
     expanded: 0
   - m_Id: 7
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614838}
       inputSlot: {fileID: 8926484042661615144}
-    position: {x: 5059.2, y: 980}
+    position: {x: 2624, y: 2260}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614838
@@ -9567,7 +9534,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614841}
-  m_UIPosition: {x: 3834, y: -113}
+  m_UIPosition: {x: 1262, y: 1227}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -9621,7 +9588,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614839}
   m_Children: []
-  m_UIPosition: {x: -25.065308, y: -84.91513}
+  m_UIPosition: {x: 0, y: 2}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -9718,7 +9685,7 @@ MonoBehaviour:
   m_Children:
   - {fileID: 8926484042661614855}
   - {fileID: 8926484042661614857}
-  m_UIPosition: {x: 3847, y: 167}
+  m_UIPosition: {x: 1275, y: 1507}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -10084,7 +10051,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614844}
   m_Children: []
-  m_UIPosition: {x: -25.065308, y: -82.91513}
+  m_UIPosition: {x: 0, y: 2}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -10147,7 +10114,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614844}
   m_Children: []
-  m_UIPosition: {x: -25.065308, y: -7.9151306}
+  m_UIPosition: {x: 0, y: 76}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -10314,7 +10281,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614888}
   - {fileID: 8926484042661614893}
   - {fileID: 8926484042661614895}
-  m_UIPosition: {x: 3847, y: 523}
+  m_UIPosition: {x: 1275, y: 1863}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -11212,7 +11179,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614862}
   m_Children: []
-  m_UIPosition: {x: -25.065308, y: -84.91513}
+  m_UIPosition: {x: 0, y: 2}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -11376,7 +11343,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614862}
   m_Children: []
-  m_UIPosition: {x: -25.065308, y: -84.91513}
+  m_UIPosition: {x: 0, y: 111}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -11438,7 +11405,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614862}
   m_Children: []
-  m_UIPosition: {x: 0, y: 0}
+  m_UIPosition: {x: 0, y: 187}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -11637,7 +11604,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614903}
-  m_UIPosition: {x: 4507, y: -118}
+  m_UIPosition: {x: 2108, y: 1234}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -11691,7 +11658,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614901}
   m_Children: []
-  m_UIPosition: {x: -95.7677, y: -308.7505}
+  m_UIPosition: {x: 0, y: 2}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -11788,7 +11755,7 @@ MonoBehaviour:
   m_Children:
   - {fileID: 8926484042661614917}
   - {fileID: 8926484042661614919}
-  m_UIPosition: {x: 4522, y: 162}
+  m_UIPosition: {x: 2108, y: 1509}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -12154,7 +12121,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614906}
   m_Children: []
-  m_UIPosition: {x: -95.7677, y: -306.7505}
+  m_UIPosition: {x: 0, y: 2}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -12217,7 +12184,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614906}
   m_Children: []
-  m_UIPosition: {x: -95.7677, y: -231.75049}
+  m_UIPosition: {x: 0, y: 76}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -12384,7 +12351,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614950}
   - {fileID: 8926484042661614955}
   - {fileID: 8926484042661614957}
-  m_UIPosition: {x: 4522, y: 518}
+  m_UIPosition: {x: 2108, y: 1865}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -13282,7 +13249,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614924}
   m_Children: []
-  m_UIPosition: {x: -95.7677, y: -308.7505}
+  m_UIPosition: {x: 0, y: 2}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -13446,7 +13413,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614924}
   m_Children: []
-  m_UIPosition: {x: -95.7677, y: -308.7505}
+  m_UIPosition: {x: 0, y: 111}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -13508,7 +13475,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661614924}
   m_Children: []
-  m_UIPosition: {x: -70.70239, y: -223.83536}
+  m_UIPosition: {x: 0, y: 187}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -14842,7 +14809,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661615094}
-  m_UIPosition: {x: 5216, y: -93}
+  m_UIPosition: {x: 2781, y: 1187}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -15027,7 +14994,7 @@ MonoBehaviour:
   m_Children:
   - {fileID: 8926484042661615113}
   - {fileID: 8926484042661615116}
-  m_UIPosition: {x: 5232, y: 187}
+  m_UIPosition: {x: 2797, y: 1467}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -15691,7 +15658,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615148}
   - {fileID: 8926484042661615154}
   - {fileID: 8926484042661615157}
-  m_UIPosition: {x: 5232, y: 543}
+  m_UIPosition: {x: 2797, y: 1823}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -16791,7 +16758,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 8926484042661615122}
   m_Children: []
-  m_UIPosition: {x: 0, y: 110}
+  m_UIPosition: {x: 0, y: 111}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -17127,7 +17094,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615165}
   m_ExposedName: ColorL1
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 2
   m_Category: TORNADO BODY L1
   m_Min:
     m_Type:
@@ -17343,7 +17310,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615171}
   m_ExposedName: ColorL2
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 3
   m_Category: TORNADO BODY L2
   m_Min:
     m_Type:
@@ -17559,7 +17526,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615177}
   m_ExposedName: ColorL3
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 4
   m_Category: TORNADO BODY L3
   m_Min:
     m_Type:
@@ -17775,7 +17742,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615183}
   m_ExposedName: ColorL4
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 5
   m_Category: TORNADO BODY L4
   m_Min:
     m_Type:
@@ -17991,7 +17958,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615189}
   m_ExposedName: ColorNotchDown
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 6
   m_Category: TORNADO NOTCH DOWN
   m_Min:
     m_Type:
@@ -18010,7 +17977,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615189}
       inputSlot: {fileID: 8926484042661614863}
-    position: {x: 3661.6, y: 585.60004}
+    position: {x: 1090, y: 1926}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615189
@@ -18207,7 +18174,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615195}
   m_ExposedName: ColorSpecial
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 7
   m_Category: 'TORNADO SPECIAL '
   m_Min:
     m_Type:
@@ -18226,7 +18193,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615195}
       inputSlot: {fileID: 8926484042661615123}
-    position: {x: 5062.4, y: 615.2}
+    position: {x: 2627, y: 1895}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615195
@@ -18423,7 +18390,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615201}
   m_ExposedName: ColorNotchUp
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 8
   m_Category: TORNADO NOTCH UP
   m_Min:
     m_Type:
@@ -18442,7 +18409,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615201}
       inputSlot: {fileID: 8926484042661614925}
-    position: {x: 4343.2, y: 585.60004}
+    position: {x: 1929, y: 1933}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615201
@@ -18639,7 +18606,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615207}
   m_ExposedName: DissolveL1
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 10
   m_Category: TORNADO BODY L1
   m_Min:
     m_Type:
@@ -18721,7 +18688,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615209}
   m_ExposedName: DissolveL2
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 11
   m_Category: TORNADO BODY L2
   m_Min:
     m_Type:
@@ -18803,7 +18770,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615211}
   m_ExposedName: DissolveL3
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 12
   m_Category: TORNADO BODY L3
   m_Min:
     m_Type:
@@ -18885,7 +18852,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615213}
   m_ExposedName: DissolveL4
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 13
   m_Category: TORNADO BODY L4
   m_Min:
     m_Type:
@@ -18967,7 +18934,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615215}
   m_ExposedName: DissolveNotchDown
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 14
   m_Category: TORNADO NOTCH DOWN
   m_Min:
     m_Type:
@@ -18988,7 +18955,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615215}
       inputSlot: {fileID: 8926484042661614868}
-    position: {x: 3644, y: 612}
+    position: {x: 1072, y: 1952}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615215
@@ -19049,7 +19016,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615217}
   m_ExposedName: DissolveNotchUp
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 15
   m_Category: TORNADO NOTCH UP
   m_Min:
     m_Type:
@@ -19070,7 +19037,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615217}
       inputSlot: {fileID: 8926484042661614930}
-    position: {x: 4343.2, y: 617.60004}
+    position: {x: 1929, y: 1965}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615217
@@ -19131,7 +19098,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615219}
   m_ExposedName: DissolveSpecial
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 16
   m_Category: 'TORNADO SPECIAL '
   m_Min:
     m_Type:
@@ -19152,7 +19119,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615219}
       inputSlot: {fileID: 8926484042661615128}
-    position: {x: 5047.2, y: 640.8}
+    position: {x: 2612, y: 1921}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615219
@@ -19213,7 +19180,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615221}
   m_ExposedName: Noise Speed (X Y) L2
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 26
   m_Category: TORNADO BODY L2
   m_Min:
     m_Type:
@@ -19361,7 +19328,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615225}
   m_ExposedName: Noise Scale L2
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 18
   m_Category: TORNADO BODY L2
   m_Min:
     m_Type:
@@ -19441,7 +19408,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615227}
   m_ExposedName: Twirl Amount L1
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 33
   m_Category: TORNADO BODY L1
   m_Min:
     m_Type:
@@ -19521,7 +19488,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615229}
   m_ExposedName: Twirl Center (X Y) L1
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 40
   m_Category: TORNADO BODY L1
   m_Min:
     m_Type:
@@ -19669,7 +19636,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615233}
   m_ExposedName: Twirl Speed (X Y) L1
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 47
   m_Category: TORNADO BODY L1
   m_Min:
     m_Type:
@@ -19817,7 +19784,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615253}
   m_ExposedName: Noise Scale L1
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 19
   m_Category: TORNADO BODY L1
   m_Min:
     m_Type:
@@ -19897,7 +19864,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615255}
   m_ExposedName: Noise Speed (X Y) L1
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 27
   m_Category: TORNADO BODY L1
   m_Min:
     m_Type:
@@ -20045,7 +20012,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615259}
   m_ExposedName: Noise Scale L3
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 20
   m_Category: TORNADO BODY L3
   m_Min:
     m_Type:
@@ -20125,7 +20092,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615261}
   m_ExposedName: Noise Speed (X Y) L3
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 28
   m_Category: TORNADO BODY L3
   m_Min:
     m_Type:
@@ -20273,7 +20240,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615265}
   m_ExposedName: Noise Scale L4
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 21
   m_Category: TORNADO BODY L4
   m_Min:
     m_Type:
@@ -20353,7 +20320,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615267}
   m_ExposedName: Noise Speed (X Y) L4
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 29
   m_Category: TORNADO BODY L4
   m_Min:
     m_Type:
@@ -20501,7 +20468,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615271}
   m_ExposedName: Twirl Center (X Y) L2
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 41
   m_Category: TORNADO BODY L2
   m_Min:
     m_Type:
@@ -20649,7 +20616,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615275}
   m_ExposedName: Twirl Speed (X Y) L2
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 48
   m_Category: TORNADO BODY L2
   m_Min:
     m_Type:
@@ -20797,7 +20764,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615279}
   m_ExposedName: Twirl Center (X Y) L3
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 42
   m_Category: TORNADO BODY L3
   m_Min:
     m_Type:
@@ -20945,7 +20912,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615283}
   m_ExposedName: Twirl Speed (X Y) L3
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 49
   m_Category: TORNADO BODY L3
   m_Min:
     m_Type:
@@ -21093,7 +21060,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615287}
   m_ExposedName: Twirl Center (X Y) L4
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 43
   m_Category: TORNADO BODY L4
   m_Min:
     m_Type:
@@ -21241,7 +21208,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615291}
   m_ExposedName: Twirl Speed (X Y) L4
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 50
   m_Category: TORNADO BODY L4
   m_Min:
     m_Type:
@@ -21389,7 +21356,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615295}
   m_ExposedName: Noise Scale NotchDown
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 22
   m_Category: TORNADO NOTCH DOWN
   m_Min:
     m_Type:
@@ -21408,7 +21375,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615295}
       inputSlot: {fileID: 8926484042661614869}
-    position: {x: 3616.8, y: 647.2}
+    position: {x: 1045, y: 1987}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615295
@@ -21469,7 +21436,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615297}
   m_ExposedName: Noise Speed (X Y) NotchDown
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 30
   m_Category: TORNADO NOTCH DOWN
   m_Min:
     m_Type:
@@ -21488,7 +21455,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615297}
       inputSlot: {fileID: 8926484042661614870}
-    position: {x: 3577.6, y: 680}
+    position: {x: 1006, y: 2020}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615297
@@ -21617,7 +21584,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615301}
   m_ExposedName: Twirl Center (X Y) NotchDown
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 44
   m_Category: TORNADO NOTCH DOWN
   m_Min:
     m_Type:
@@ -21636,7 +21603,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615301}
       inputSlot: {fileID: 8926484042661614874}
-    position: {x: 3583.2, y: 747.2}
+    position: {x: 1011, y: 2087}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615301
@@ -21765,7 +21732,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615305}
   m_ExposedName: Twirl Speed (X Y) NotchDown
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 51
   m_Category: TORNADO NOTCH DOWN
   m_Min:
     m_Type:
@@ -21784,7 +21751,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615305}
       inputSlot: {fileID: 8926484042661614877}
-    position: {x: 3583.2, y: 785.60004}
+    position: {x: 1011, y: 2126}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615305
@@ -21913,7 +21880,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615309}
   m_ExposedName: Noise Speed (X Y) NotchUp
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 31
   m_Category: TORNADO NOTCH UP
   m_Min:
     m_Type:
@@ -21932,7 +21899,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615309}
       inputSlot: {fileID: 8926484042661614932}
-    position: {x: 4276.8, y: 692.8}
+    position: {x: 1863, y: 2040}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615309
@@ -22061,7 +22028,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615313}
   m_ExposedName: Noise Scale NotchUp
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 23
   m_Category: TORNADO NOTCH UP
   m_Min:
     m_Type:
@@ -22080,7 +22047,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615313}
       inputSlot: {fileID: 8926484042661614931}
-    position: {x: 4313.6, y: 660.8}
+    position: {x: 1900, y: 2008}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615313
@@ -22141,7 +22108,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615315}
   m_ExposedName: Twirl Center (X Y) NotchUp
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 45
   m_Category: TORNADO NOTCH UP
   m_Min:
     m_Type:
@@ -22160,7 +22127,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615315}
       inputSlot: {fileID: 8926484042661614936}
-    position: {x: 4271.2, y: 756.8}
+    position: {x: 1857, y: 2104}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615315
@@ -22289,7 +22256,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615319}
   m_ExposedName: Twirl Speed (X Y) NotchUp
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 52
   m_Category: TORNADO NOTCH UP
   m_Min:
     m_Type:
@@ -22308,7 +22275,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615319}
       inputSlot: {fileID: 8926484042661614939}
-    position: {x: 4271.2, y: 792}
+    position: {x: 1857, y: 2139}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615319
@@ -22437,7 +22404,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615323}
   m_ExposedName: Noise Speed (X Y) Special
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 32
   m_Category: 'TORNADO SPECIAL '
   m_Min:
     m_Type:
@@ -22456,7 +22423,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615323}
       inputSlot: {fileID: 8926484042661615130}
-    position: {x: 4988.8, y: 705.60004}
+    position: {x: 2554, y: 1986}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615323
@@ -22585,7 +22552,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615327}
   m_ExposedName: Noise Scale Special
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 24
   m_Category: 'TORNADO SPECIAL '
   m_Min:
     m_Type:
@@ -22604,7 +22571,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615327}
       inputSlot: {fileID: 8926484042661615129}
-    position: {x: 5025.6, y: 680}
+    position: {x: 2591, y: 1960}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615327
@@ -22665,7 +22632,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615329}
   m_ExposedName: Twirl Center (X Y) Special
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 46
   m_Category: 'TORNADO SPECIAL '
   m_Min:
     m_Type:
@@ -22684,7 +22651,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615329}
       inputSlot: {fileID: 8926484042661615134}
-    position: {x: 4982.4, y: 776.8}
+    position: {x: 2547, y: 2057}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615329
@@ -22813,7 +22780,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615333}
   m_ExposedName: Twirl Speed (X Y) Special
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 53
   m_Category: 'TORNADO SPECIAL '
   m_Min:
     m_Type:
@@ -22832,7 +22799,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615333}
       inputSlot: {fileID: 8926484042661615137}
-    position: {x: 4988, y: 802.4}
+    position: {x: 2553, y: 2082}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615333
@@ -22961,7 +22928,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615337}
   m_ExposedName: Twirl Amount L1 1
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 34
   m_Category: TORNADO BODY L2
   m_Min:
     m_Type:
@@ -23041,7 +23008,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615339}
   m_ExposedName: Twirl Amount L3
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 35
   m_Category: TORNADO BODY L3
   m_Min:
     m_Type:
@@ -23121,7 +23088,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615341}
   m_ExposedName: Twirl Amount L4
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 36
   m_Category: TORNADO BODY L4
   m_Min:
     m_Type:
@@ -23201,7 +23168,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615343}
   m_ExposedName: Twirl Amount NotchDown
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 37
   m_Category: TORNADO NOTCH DOWN
   m_Min:
     m_Type:
@@ -23220,7 +23187,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615343}
       inputSlot: {fileID: 8926484042661614873}
-    position: {x: 3606.4, y: 715.2}
+    position: {x: 1034, y: 2055}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615343
@@ -23281,7 +23248,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615345}
   m_ExposedName: Twirl Amount NotchUp
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 38
   m_Category: TORNADO NOTCH UP
   m_Min:
     m_Type:
@@ -23300,7 +23267,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615345}
       inputSlot: {fileID: 8926484042661614935}
-    position: {x: 4304.8, y: 724.8}
+    position: {x: 1891, y: 2072}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615345
@@ -23361,7 +23328,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615347}
   m_ExposedName: Twirl Amount Special
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 39
   m_Category: 'TORNADO SPECIAL '
   m_Min:
     m_Type:
@@ -23380,7 +23347,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615347}
       inputSlot: {fileID: 8926484042661615133}
-    position: {x: 5011.2, y: 750.4}
+    position: {x: 2576, y: 2030}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615347

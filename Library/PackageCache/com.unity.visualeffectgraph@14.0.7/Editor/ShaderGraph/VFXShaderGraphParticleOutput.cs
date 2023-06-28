@@ -251,7 +251,6 @@ namespace UnityEditor.VFX
                     var sgAssetPath = AssetDatabase.GetAssetPath(shaderGraph.GetInstanceID());
                     var vfxAssetPath = AssetDatabase.GetAssetPath(this);
 
-                    Debug.LogErrorFormat("Unexpected missing material settings on VFX '{0}' using ShaderGraph '{1}'.\nThis invalid state can lead to an incorrect sort mode.", vfxAssetPath, sgAssetPath);
                 }
 
                 materialSettings.ApplyToMaterial(material);
